@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #381e83;
+}
+
+.score {
+    font-family: 'Press Start 2P';
+    background: #0a0001;
+    font-size: 80px;
+    color: #F94F6D;
+    width: 18vw;
+    height: 20vh;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px;
+}
+.container div h3{
+    font-size: 60px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.container div h2{
+    font-size: 120px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+button{
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    background: none; 
+    height: 45px;
+     width: 60px; 
+     font-size: 25px;
+     font-weight: 700;
+     font-family: 'Press Start 2P', cursive;
+}
